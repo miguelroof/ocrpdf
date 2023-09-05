@@ -138,25 +138,6 @@ def pdf_ocr(pdf_file):
 
 
 
-                # The recognized text is stored in variable text
-                # Any string processing may be applied on text
-                # Here, basic formatting has been done:
-                # In many PDFs, at line ending, if a word can't
-                # be written fully, a 'hyphen' is added.
-                # The rest of the word is written in the next line
-                # Eg: This is a sample text this word here GeeksF-
-                # orGeeks is half on first line, remaining on next.
-                # To remove this, we replace every '-\n' to ''.
-                # text = text.replace("-\n", "")
-
-                # Finally, write the processed text to the file.
-                # output_file.write(text)
-
-            # At the end of the with .. output_file block
-            # the file is closed after writing all the text.
-        # At the end of the with .. tempdir block, the
-        # TemporaryDirectory() we're using gets removed!
-    # End of main function!
 
 def searchable_shx(pdf_name, page_num):
     from PyPDF2 import PdfFileReader, PdfFileWriter

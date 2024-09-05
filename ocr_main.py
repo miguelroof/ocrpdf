@@ -16,7 +16,7 @@ __version__ = "0.0"
 __email__ = "tejada.miguel@gmail.com"
 __license__ = "tejada.miguel@gmail.com"
 __versionHistory__ = [
-    ["0.0", "210211", "MTEJADA", "START"]]
+    ["0.0", "231009", "MTEJADA", "START"]]
 
 import os
 # Requires Python 3.6 or higher due to f-strings
